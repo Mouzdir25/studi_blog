@@ -30,7 +30,7 @@
       <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
           <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
-            <img src="assets/images/logo-tech-trendz.png" alt="logo TechTrendz" width="150px">
+            <img src="assets/images/upissi_island_logo.jpg" alt="logo TechTrendz" width="150px">
           </a>
         </div>
 
