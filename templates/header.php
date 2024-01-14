@@ -36,7 +36,9 @@
 
         <ul class="nav nav-pills col-12 col-md-auto mb-2 justify-content-center mb-md-0">
           <?php foreach ($mainMenu as $key => $menuItem) {
-            if (!$menuItem["exclude"]){
+
+            // On vérifie s'il y'a l'exclude dans le menu, s'il n'y est pas on affiche et grace au ! pour faire l'inverse
+            if (!array_key_exists("exclude", $menuItem)){
             ?>
             <li class="nav-item"><a href="<?=$key?>" class="nav-link px-2 <?php 
             // La classe active dans le menu
